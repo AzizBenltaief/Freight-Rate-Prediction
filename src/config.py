@@ -11,6 +11,10 @@ VALIDATION_RAW = DATA_DIR / "validation.csv"
 VALIDATION_TEMPLATE = DATA_DIR / "validation_predictions_template.csv"
 DECEMBER_INPUTS = DATA_DIR / "december_chart_inputs.csv"
 
+MODEL_DIR = ROOT / "models"
+MODEL_PATH = MODEL_DIR / "freight_model.joblib"
+WEBAPP_DIR = ROOT / "webapp"
+
 TRAIN_CLEAN = PROCESSED_DIR / "train_test_clean.csv"
 LABEL_OUTLIERS = PROCESSED_DIR / "train_label_outliers.csv"
 VALIDATION_CLEAN = PROCESSED_DIR / "validation_clean.csv"
